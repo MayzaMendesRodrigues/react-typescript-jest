@@ -1,46 +1,80 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+````
+# React + TypeScript Project
 
-## Available Scripts
+This project was developed using **React** and **TypeScript**, focusing on best practices, modern styling, and automated testing on the frontend.
 
-In the project directory, you can run:
+## 🚀 Technologies Used
 
-### `npm start`
+- **React** with **TypeScript**
+- **Chakra UI** – for building accessible and styled components
+- **Styled Components** – studied and applied for dynamic styling
+- **Jest** + **React Testing Library** – implementing **TDD (Test-Driven Development)** in the frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📂 Project Structure
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- `src/components` → Reusable components  
+- `src/pages` → Application pages  
+- `src/styles` → Global styles and theme configuration  
+- `src/tests` → Unit and integration tests  
+- `src/services` → External services and API integrations  
 
-### `npm test`
+## 🧪 Tests
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project was built following the **TDD (Test-Driven Development)** methodology, ensuring higher quality and reliability in the codebase.  
+You can run the tests with:
 
-### `npm run build`
+```bash
+npm test
+````
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+or
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+yarn test
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Getting Started
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   ```bash
+   git clone https://github.com/username/project-name.git
+   ```
+2. Navigate to the project folder:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   cd project-name
+   ```
+3. Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   ```bash
+   npm install
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   or
 
-## Learn More
+   ```bash
+   yarn install
+   ```
+4. Run the application:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm run dev
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   or
+
+   ```bash
+   yarn dev
+   ```
+
+## 📖 Key Learnings
+
+Throughout the development, I explored and applied:
+
+* Static typing and interfaces with **TypeScript**
+* Styling with **Styled Components** and **Chakra UI**
+* Unit testing and TDD practices with **Jest** and **React Testing Library**
+
+---
