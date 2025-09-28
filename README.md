@@ -1,5 +1,4 @@
 
-````
 # React + TypeScript Project
 
 This project was developed using **React** and **TypeScript**, focusing on best practices, modern styling, and automated testing on the frontend.
